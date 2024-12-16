@@ -22,4 +22,4 @@ def response(q):
 
 print(response("Who is Donald Trump?"))
 
-def retrieve_feeds(url)
+# def retrieve_feeds(url)

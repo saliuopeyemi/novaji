@@ -4,7 +4,7 @@ import json
 
 url = "https://www.cbn.gov.ng/Documents/circulars.html"
 
-get_data= requests.get(url)
+get_data= requests.get(url.format(3))
 
 soup = BeautifulSoup(get_data.content,"html.parser")
 
